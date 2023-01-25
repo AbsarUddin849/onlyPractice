@@ -1,0 +1,41 @@
+<html>
+    <head> 
+        <style>
+           .parent {display: flex; 
+            border: 2px solid red;
+             height: 200px;
+            }
+
+            .child {
+                border: 2px solid green;
+              
+                background-color:cyan;
+                flex-basis: 200px;
+    
+            }
+            .shrink{
+                flex-shrink: 3;
+                background-color: blue;
+            }
+
+           
+            
+        </style>
+    </head>
+    <body>
+        <div class="parent">     
+                <div class="child ">  </div>
+                <div class="child shrink">  </div>
+                <div class="child ">  </div>
+                <div class="child"> </div>
+                <div class="child shrink">  </div>
+                <div class="child ">  </div>
+                <div class="child  shrink">  </div>
+                <div class="child "> </div>
+                
+
+        </div>
+       
+   
+    </body>
+</html>
